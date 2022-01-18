@@ -849,7 +849,7 @@ static int ipv4_gratuitous_arp ( struct net_device *netdev,
 /**
  * Convert netmask from prefix length to IPv4
  *
- * @v prefix_len   Prefix length 
+ * @v prefix_len   Prefix length
  * @ret rc	  Return IPv4 netmask
  */
 static inline uint32_t prefix_len_to_mask ( uint8_t prefix_len ) {
@@ -862,7 +862,7 @@ static inline uint32_t prefix_len_to_mask ( uint8_t prefix_len ) {
 			  prefix_len );
 		return 0;
 	}
-	
+
 	return htonl ( ( prefix_len > 0 ) ? 0xFFFFFFFF << ( 32 - prefix_len ) : 0 );
 }
 
