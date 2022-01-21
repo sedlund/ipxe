@@ -1,3 +1,13 @@
+About this fork:
+
+This branch of this fork provides support for static routes used on many
+networks, such as on Hetzner Cloud (hcloud).
+
+The [patch](https://github.com/ipxe/ipxe/pull/104) was slightly updated
+to compile without errors on recent gcc.
+
+---
+
 iPXE README File
 
 Quick start guide:
